@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node --experimental-modules  index.mjs",
+    "start-prod": "export NODE_ENV=production; node --experimental-modules  index.mjs"
+  },
+  "engines": {
+    "node": ">=10.14.1"
+  }
+}
